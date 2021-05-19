@@ -1,6 +1,8 @@
 # Spring Webflux 탐험기
 
 ## Spec
+- Spring Boot 2.4.1
+- Spring Webflux (버전은 Dependency Manager 1.0.11.RELEASE의 의존성을 따릅니다.)
 
 ## Wiki
 [1. What is Spring Webflux](https://github.com/technical-learn-room/spring-webflux-learn/wiki/1.-What-is-Spring-Webflux)  
