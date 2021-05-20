@@ -19,8 +19,8 @@ public class MonoOr {
     public static void main(String[] args) {
         var mono1 = Mono.just("apple");
         var mono2 = Mono.just("banana");
-        mono1.or(mono2)
-                .doOnNext(System.out::println)
+        mono1.or(mono2)                                 // mono1과 mono2 중 하나를 리턴
+                .doOnNext(System.out::println)          // 출력
                 .subscribe();
     }
 }
