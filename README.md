@@ -7,11 +7,11 @@
 
 ## Wiki
 
-#### Theory   
-[1. What is Spring Webflux](https://github.com/technical-learn-room/spring-webflux-learn/wiki/1.-What-is-Spring-Webflux)  
-[2. What is Reactive Streams](https://github.com/technical-learn-room/spring-webflux-learn/wiki/2.-What-is-Reactive-Streams)  
-[3. What is Reactive Programming](https://github.com/technical-learn-room/spring-webflux-learn/wiki/3.-What-is-Reactive-Programming)  
-
 #### Practice  
-[4. How to use Flux and Mono](https://github.com/technical-learn-room/spring-webflux-learn/wiki/4.-Flux-and-Mono)  
-[5. How to use StepVerifier](https://github.com/technical-learn-room/spring-webflux-learn/wiki/5.-How-to-use-StepVerifier)
+[How to use Flux and Mono](https://github.com/technical-learn-room/spring-webflux-learn/wiki/4.-Flux-and-Mono)  
+[How to use StepVerifier](https://github.com/technical-learn-room/spring-webflux-learn/wiki/5.-How-to-use-StepVerifier)
+
+#### Theory   
+[What is Spring Webflux](https://github.com/technical-learn-room/spring-webflux-learn/wiki/1.-What-is-Spring-Webflux)  
+[What is Reactive Streams](https://github.com/technical-learn-room/spring-webflux-learn/wiki/2.-What-is-Reactive-Streams)  
+[What is Reactive Programming](https://github.com/technical-learn-room/spring-webflux-learn/wiki/3.-What-is-Reactive
