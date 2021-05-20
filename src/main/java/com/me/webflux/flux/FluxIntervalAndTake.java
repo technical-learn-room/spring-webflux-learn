@@ -48,7 +48,7 @@ public class FluxIntervalAndTake {
                 .doOnNext(System.out::println)  // 출력
                 .subscribe();         
 
-        Thread.sleep(10000);               // asynchronous 하게 동작하기 때문에 프로그램이 멈추지 않도록 쓰레드를 멈춤           
+        Thread.sleep(10000);               // asynchronous 하게 동작하기 때문에 프로그램이 멈추지 않도록 쓰레드를 멈춤
     }
 }
 
