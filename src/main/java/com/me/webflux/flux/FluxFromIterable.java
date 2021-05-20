@@ -31,8 +31,8 @@ a new Flux
 public class FluxFromIterable {
     public static void main(String[] args) {
         var list = List.of("apple", "banana", "grape", "melon", "mango");
-        Flux.fromIterable(list)
-                .doOnNext(System.out::println)
+        Flux.fromIterable(list)                 // 리스트를 데이터 스트림으로 변경
+                .doOnNext(System.out::println)  // 출력
                 .subscribe();
     }
 }
