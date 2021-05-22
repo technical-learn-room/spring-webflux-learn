@@ -9,8 +9,8 @@
 
 #### Practice  
 [How to use Flux and Mono](https://github.com/technical-learn-room/spring-webflux-learn/wiki/4.-Flux-and-Mono)  
-[How to use StepVerifier](https://github.com/technical-learn-room/spring-webflux-learn/wiki/5.-How-to-use-StepVerifier)
-[What is difference between map() and flatMap()](https://github.com/technical-learn-room/spring-webflux-learn/wiki/6.-What-is-difference-between-map()-and-flatMap())
+[How to use StepVerifier](https://github.com/technical-learn-room/spring-webflux-learn/wiki/5.-How-to-use-StepVerifier)  
+[What is difference between map() and flatMap()](https://github.com/technical-learn-room/spring-webflux-learn/wiki/6.-What-is-difference-between-map()-and-flatMap())  
 
 #### Theory   
 [What is Spring Webflux](https://github.com/technical-learn-room/spring-webflux-learn/wiki/1.-What-is-Spring-Webflux)  
