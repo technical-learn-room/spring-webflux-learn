@@ -11,9 +11,9 @@
 [How to use Flux and Mono](https://github.com/technical-learn-room/spring-webflux-learn/wiki/4.-Flux-and-Mono)  
 [How to use StepVerifier](https://github.com/technical-learn-room/spring-webflux-learn/wiki/5.-How-to-use-StepVerifier)  
 [What is difference between map() and flatMap()](https://github.com/technical-learn-room/spring-webflux-learn/wiki/6.-What-is-difference-between-map()-and-flatMap())  
-[How to merge Publishers](https://github.com/technical-learn-room/spring-webflux-learn/wiki/7.-How-to-merge-Publishers)
+[How to merge Publishers](https://github.com/technical-learn-room/spring-webflux-learn/wiki/7.-How-to-merge-Publishers)  
 
 #### Theory   
 [What is Spring Webflux](https://github.com/technical-learn-room/spring-webflux-learn/wiki/1.-What-is-Spring-Webflux)  
 [What is Reactive Streams](https://github.com/technical-learn-room/spring-webflux-learn/wiki/2.-What-is-Reactive-Streams)  
-[What is Reactive Programming](https://github.com/technical-learn-room/spring-webflux-learn/wiki/3.-What-is-Reactive)
+[What is Reactive Programming](https://github.com/technical-learn-room/spring-webflux-learn/wiki/3.-What-is-Reactive-Programming)  
