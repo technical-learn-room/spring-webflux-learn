@@ -1,4 +1,4 @@
-package com.me.webflux;
+package com.me.webflux.step_verifier;
 
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
