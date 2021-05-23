@@ -13,7 +13,7 @@
 [What is difference between map() and flatMap()](https://github.com/technical-learn-room/spring-webflux-learn/wiki/6.-What-is-difference-between-map()-and-flatMap())  
 [How to merge Publishers](https://github.com/technical-learn-room/spring-webflux-learn/wiki/7.-How-to-merge-Publishers)  
 
-#### Theory (이론 정리가 부실합니다. 다른 글에서 Webflux에 대한 충분하 이해 후 Practice를 읽으시면 좋습니다.)  
+#### Theory (이론 정리가 부실합니다. 다른 글에서 Webflux에 대한 충분한 이해 후 Practice를 읽으시면 좋습니다.)  
 [What is Spring Webflux](https://github.com/technical-learn-room/spring-webflux-learn/wiki/1.-What-is-Spring-Webflux)  
 [What is Reactive Streams](https://github.com/technical-learn-room/spring-webflux-learn/wiki/2.-What-is-Reactive-Streams)  
 [What is Reactive Programming](https://github.com/technical-learn-room/spring-webflux-learn/wiki/3.-What-is-Reactive-Programming)  
