@@ -6,7 +6,7 @@
 ### [3. How to use StepVerifier](https://github.com/technical-learn-room/spring-webflux-learn/wiki/3.-How-to-use-StepVerifier)  
 ### [4. What is difference between map() and flatMap()](https://github.com/technical-learn-room/spring-webflux-learn/wiki/4.-What-is-difference-between-map()-and-flatMap())  
 ### [5. How to merge Publishers](https://github.com/technical-learn-room/spring-webflux-learn/wiki/5.-How-to-merge-Publishers)  
-### [6. How to implement Backpressure](https://github.com/technical-learn-room/spring-webflux-learn/wiki/6.-How-to-implement-Backpressure)  
+### [7 How to implement Backpressure](https://github.com/technical-learn-room/spring-webflux-learn/wiki/7.-How-to-implement-Backpressure)  
 
 ## Spec
 - Java 11
