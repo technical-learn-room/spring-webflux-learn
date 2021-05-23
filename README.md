@@ -1,11 +1,11 @@
 # Spring Webflux 탐험기
 
 ## Wiki
-### [What is Spring Webflux](https://github.com/technical-learn-room/spring-webflux-learn/wiki/1.-What-is-Spring-Webflux)  
-### [How to use Flux and Mono](https://github.com/technical-learn-room/spring-webflux-learn/wiki/2.-How-to-use-Flux-and-Mono)  
-### [How to use StepVerifier](https://github.com/technical-learn-room/spring-webflux-learn/wiki/3.-How-to-use-StepVerifier)  
-### [What is difference between map() and flatMap()](https://github.com/technical-learn-room/spring-webflux-learn/wiki/4.-What-is-difference-between-map()-and-flatMap())  
-### [How to merge Publishers](https://github.com/technical-learn-room/spring-webflux-learn/wiki/5.-How-to-merge-Publishers)  
+### [1. What is Spring Webflux](https://github.com/technical-learn-room/spring-webflux-learn/wiki/1.-What-is-Spring-Webflux)  
+### [2. How to use Flux and Mono](https://github.com/technical-learn-room/spring-webflux-learn/wiki/2.-How-to-use-Flux-and-Mono)  
+### [3. How to use StepVerifier](https://github.com/technical-learn-room/spring-webflux-learn/wiki/3.-How-to-use-StepVerifier)  
+### [4. What is difference between map() and flatMap()](https://github.com/technical-learn-room/spring-webflux-learn/wiki/4.-What-is-difference-between-map()-and-flatMap())  
+### [5. How to merge Publishers](https://github.com/technical-learn-room/spring-webflux-learn/wiki/5.-How-to-merge-Publishers)  
 
 ## Spec
 - Java 11
