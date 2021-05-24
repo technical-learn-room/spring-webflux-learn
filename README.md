@@ -7,7 +7,7 @@
 ### [4. Flux.map()과 Flux.flatMap()의 차이 알아보기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/4.-What-is-difference-between-map()-and-flatMap())  
 ### [5. Publisher 합병하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/5.-How-to-merge-Publishers)  
 ### [6. Backpressure의 Request(N) 테스트하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/6.-How-to-test-Request(N))  
-### [7. Backpressure를 구현해서 사용해보기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/7.-How-to-implement-Backpressure)  
+### [7. Subscriber를 구현하여 배압조절(Backpressure)하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/7.-How-to-implement-Backpressure)  
 
 ## Spec
 - Java 11
