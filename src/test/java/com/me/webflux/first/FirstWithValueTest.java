@@ -19,9 +19,9 @@ public class FirstWithValueTest {
 
     @Test
     public void firstWithValueTestThrowError() {
-        Flux<Long> flux1 = Flux.interval(Duration.ofSeconds(5)).take(1);
+        Flux<Long> flux1 = Flux.interval(Duration.ofSeconds(3)).take(2);
         Flux<Object> flux2 = Flux.error(RuntimeException::new)
-                .mergeWith(Flux.interval(Duration.ofSeconds(3)).take(2));
+                .mergeWith(Flux.interval(Duration.ofSeconds(5)).take(1));
 
         Flux.firstWithValue(flux1, flux2)
                 .doOnNext(System.out::println)
