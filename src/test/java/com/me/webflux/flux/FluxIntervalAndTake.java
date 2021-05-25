@@ -1,5 +1,6 @@
 package com.me.webflux.flux;
 
+import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 import java.time.Duration;
 
@@ -42,7 +43,9 @@ a Flux limited to size N
  */
 
 public class FluxIntervalAndTake {
-    public static void main(String[] args) throws InterruptedException {
+
+    @Test
+    public void test() throws InterruptedException {
         Flux.interval(Duration.ofMillis(1000))  // 1초 마다 데이터를 생성하는 무한한 데이터 스트림을 생성
                 .take(5)                        // 무한한 스트림 중 5개를 제한적으로 데이터 스트림을 생성
                 .doOnNext(System.out::println)  // 출력

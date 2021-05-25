@@ -16,10 +16,13 @@ Returns
 a failing Mono
  */
 
+import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Mono;
 
 public class MonoError {
-    public static void main(String[] args) {
+
+    @Test
+    public void test() {
         Mono.error(new NullPointerException())  // 데이터 스트림에 일으킬 에러를 담음
                 .subscribe();                   // 구독시 에러를 발생시킴
         /*

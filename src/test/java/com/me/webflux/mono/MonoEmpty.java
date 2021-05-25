@@ -1,5 +1,6 @@
 package com.me.webflux.mono;
 
+import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Mono;
 
 /*
@@ -16,7 +17,9 @@ a completed Mono
  */
 
 public class MonoEmpty {
-    public static void main(String[] args) {
+
+    @Test
+    public void test() {
         Mono.empty()                                // 빈 데이터 스트림 생성
                 .doOnNext(System.out::println)      // 데이터 스트림에게 다음 행동을 지시 :: println, but 데이터 스트림이 비어 있으므로 작동하지 않음
                 .subscribe();                       // 모든 요청은 구독을 해야 동작

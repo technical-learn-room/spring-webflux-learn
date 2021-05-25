@@ -1,5 +1,6 @@
 package com.me.webflux.flux;
 
+import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 
 import java.util.List;
@@ -29,7 +30,9 @@ a new Flux
  */
 
 public class FluxFromIterable {
-    public static void main(String[] args) {
+
+    @Test
+    public void test() {
         var list = List.of("apple", "banana", "grape", "melon", "mango");
         Flux.fromIterable(list)                 // 리스트를 데이터 스트림으로 변경
                 .doOnNext(System.out::println)  // 출력

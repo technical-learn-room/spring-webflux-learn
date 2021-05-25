@@ -1,5 +1,6 @@
 package com.me.webflux.mono;
 
+import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Mono;
 
 /*
@@ -16,7 +17,9 @@ a new Mono
  */
 
 public class MonoOr {
-    public static void main(String[] args) {
+
+    @Test
+    public void test() {
         var mono1 = Mono.just("apple");
         var mono2 = Mono.just("banana");
         mono1.or(mono2)                                 // mono1과 mono2 중 하나를 리턴

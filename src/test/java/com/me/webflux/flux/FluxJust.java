@@ -1,5 +1,6 @@
 package com.me.webflux.flux;
 
+import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 
 /*
@@ -20,7 +21,9 @@ a new Flux
  */
 
 public class FluxJust {
-    public static void main(String[] args) {
+
+    @Test
+    public void test() {
         Flux.just("apple", "banana", "grape", "melon", "mango") // 'apple', 'banana', 'grape', 'melon', 'mango' 라는 데이터를 가진 데이터 스트림을 구축
                 .doOnNext(System.out::println)                  // 출력
                 .map(f -> "|" + f + "|")                        // 데이터 매핑 (Stream API의 map()과 같음)

@@ -1,5 +1,6 @@
 package com.me.webflux.flux;
 
+import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 
 /*
@@ -19,7 +20,9 @@ a new failing Flux
  */
 
 public class FluxError {
-    public static void main(String[] args) {
+
+    @Test
+    public void test() {
         Flux.error(new NullPointerException())  // 데이터 스트림에 일으킬 에러를 담음
                 .subscribe();                   // 구독시 에러를 발생시킴
         /*

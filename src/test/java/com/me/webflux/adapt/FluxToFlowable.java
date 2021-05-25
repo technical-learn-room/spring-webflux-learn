@@ -1,10 +1,13 @@
 package com.me.webflux.adapt;
 
 import io.reactivex.rxjava3.core.Flowable;
+import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 
 public class FluxToFlowable {
-    public static void main(String[] args) {
+
+    @Test
+    public void test() {
         Flowable.fromPublisher(Flux.just("apple", "banana", "grape"));
     }
 }

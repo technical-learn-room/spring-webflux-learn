@@ -1,5 +1,6 @@
 package com.me.webflux.mono;
 
+import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Mono;
 
 /*
@@ -19,7 +20,9 @@ a Mono.
  */
 
 public class MonoJust {
-    public static void main(String[] args) {
+
+    @Test
+    public void test() {
         Mono.just("apple")                      // 'apple' 데이터를 가진 데이터 스트림을 구축
                 .doOnNext(System.out::println)  // 출력
                 .map(f -> "|" + f + "|")        // 데이터 매핑 (Stream API의 map()과 같음)

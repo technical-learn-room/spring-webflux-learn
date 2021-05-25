@@ -1,5 +1,6 @@
 package com.me.webflux.flux;
 
+import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 
 /*
@@ -16,7 +17,9 @@ a never completing Mono
  */
 
 public class FluxNever {
-    public static void main(String[] args) {
+
+    @Test
+    public void test() {
         Flux.never()
                 .mergeWith(Flux.error(new RuntimeException()))
                 .doOnNext(System.out::println)
