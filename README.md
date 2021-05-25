@@ -1,15 +1,15 @@
 # Spring Webflux 탐험기
 
 ## Wiki
-### [1. Spring Webflux란?](https://github.com/technical-learn-room/spring-webflux-learn/wiki/1.-What-is-Spring-Webflux)  
-### [2. Flux와 Mono에 대해 알아보기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/2.-How-to-use-Flux-and-Mono)  
-### [3. StepVerifier를 사용하여 Publisher 검증하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/3.-How-to-use-StepVerifier)  
-### [4. Flux.map()과 Flux.flatMap()의 차이 알아보기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/4.-What-is-difference-between-map()-and-flatMap())  
-### [5. Publisher 합병하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/5.-How-to-merge-Publishers)  
-### [6. Backpressure의 Request(N) 테스트하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/6.-How-to-test-Request(N))  
-### [7. Subscriber를 구현하여 배압조절(Backpressure)하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/7.-How-to-implement-Backpressure)  
-### [8. Publisher 중 에러 발생 데이터 처리하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/8.-How-to-do-Error-Handling)  
-### [9. 다른 Publisher 구현체와 상호변환하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/9.-How-Project-Reactor-adapts-in-RxJava)  
+### [01. Spring Webflux란?](https://github.com/technical-learn-room/spring-webflux-learn/wiki/01.-What-is-Spring-Webflux)  
+### [02. Flux와 Mono에 대해 알아보기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/02.-How-to-use-Flux-and-Mono)  
+### [03. StepVerifier를 사용하여 Publisher 검증하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/03.-How-to-use-StepVerifier)  
+### [04. Flux.map()과 Flux.flatMap()의 차이 알아보기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/04.-What-is-difference-between-map()-and-flatMap())  
+### [05. Publisher 합병하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/05.-How-to-merge-Publishers)  
+### [06. Backpressure의 Request(N) 테스트하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/06.-How-to-test-Request(N))  
+### [07. Subscriber를 구현하여 배압조절(Backpressure)하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/07.-How-to-implement-Backpressure)  
+### [08. Publisher 중 에러 발생 데이터 처리하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/08.-How-to-do-Error-Handling)  
+### [09. 다른 Publisher 구현체와 상호변환하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/09.-How-Project-Reactor-adapts-in-RxJava)  
 
 ## Spec
 - Java 11
