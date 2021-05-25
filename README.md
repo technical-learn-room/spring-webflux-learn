@@ -10,6 +10,7 @@
 ### [07. Subscriber를 구현하여 배압조절(Backpressure)하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/07.-How-to-implement-Backpressure)  
 ### [08. Publisher 중 에러 발생 데이터 처리하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/08.-How-to-do-Error-Handling)  
 ### [09. 다른 Publisher 구현체와 상호변환하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/09.-How-Project-Reactor-adapts-in-RxJava)  
+### [10. Flux와 Mono의 유용한 메소드 알아보기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/10.-How-to-use-useful-methods.)  
 
 ## Spec
 - Java 11
