@@ -16,3 +16,4 @@
 - Java 11
 - Spring Boot 2.4.1
 - Spring Webflux (버전은 Dependency Manager 1.0.11.RELEASE의 의존성을 따릅니다.)
+- RxJava 3.0.12 (Project Reactor와 상호 변환을 테스트하기 위함입니다.)
