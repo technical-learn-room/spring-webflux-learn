@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public class TestResponse {
+public class AnnotatedTestResponse {
     private String name;
     private int age;
     private String gradeClassNumber;
