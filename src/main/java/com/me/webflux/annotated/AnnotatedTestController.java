@@ -1,15 +1,25 @@
 package com.me.webflux.annotated;
 
-import org.springframework.web.bind.annotation.GetMapping;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
 @RestController
-public class AnnotatedController {
+@RequiredArgsConstructor
+public class AnnotatedTestController {
+    private final AnnotatedTestService testService;
 
-    @GetMapping("/hello")
-    public Mono<TestResponse> annotatedController(@RequestBody AnnotatedRequest request) {
-        return Mono.just(new TestResponse("이진혁", 19, "3417"));
+    @PostMapping("/hello")
+    public Mono<AnnotatedTestResponse> testController(@RequestBody Mono<AnnotatedTestRequest> request) {
+        return request
+                .flatMap(req -> Mono.just(
+                        new AnnotatedTestResponse(
+                                testService.combineName(req.getFirstName(), req.getLastName()),
+                                req.getAge(),
+                                testService.combineGradeClassNumber(req.getGrade(), req.getClassroom(), req.getNumber())
+                        )
+                ));
     }
 }
