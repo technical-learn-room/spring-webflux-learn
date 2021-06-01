@@ -12,6 +12,7 @@
 ### [09. 다른 Publisher 구현체와 상호변환하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/09.-How-Project-Reactor-adapts-in-RxJava)  
 ### [10. Flux와 Mono의 유용한 메소드 알아보기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/10.-How-to-use-useful-methods.)  
 ### [11. 어노테이션 기반으로 라우팅하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/11.-How-to-route-based-on-Annotation)  
+### [12. RouterFunction 기반으로 라우팅하기](https://github.com/technical-learn-room/spring-webflux-learn/wiki/12.-How-to-route-based-on-RouterFunction)  
 
 ## Spec
 - Java 11
